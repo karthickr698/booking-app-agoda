@@ -1,0 +1,95 @@
+.cart-cont{
+    margin: 30px 100px;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 7px rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+    padding-bottom: 10px;
+}
+
+.desc div:nth-child(1){
+    color: rgba(0,0,0,0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.desc div:nth-child(2){
+    color: rgba(0,0,0,0.6);
+}
+
+.card-flex-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img img{
+    border-radius: 10px;
+    height: 100%;
+}
+
+.save{
+    background-color: red;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.strike{
+    text-align: right;
+    padding: 5px 0 5px 0;
+    font-size: 16px;
+    text-decoration: line-through;
+    color:rgb(158, 158, 158)
+}
+
+.actual{
+    color:red;
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
+}
+
+.btn-cont{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buton{
+    padding: 5px 20px;
+    background-color: #0D1FFF;
+    color:white !important;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.buton button{
+    color:#FFFFFF;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 0;
+}
+
+.features-cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+.features-cont .icon{
+    color:green;
+    padding-right: 10px;
+}
+.features-cont .text{
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+}
+
+.main-features{
+    padding-top: 10px;
+}
