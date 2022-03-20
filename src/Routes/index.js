@@ -4,6 +4,7 @@ import "../App.css";
 import Login from "../Components/Auth/Login";
 import NotFound from "../Components/Auth/NotFound";
 import Listing from "../Components/Listing/HotelListing";
+import Checkout from "../Components/Listing/Checkout";
 
 // const Pages = () => (
 //   <Switch>
@@ -34,6 +35,7 @@ export default function Routes() {
     <Switch>
       <Route exact path="/" component={Listing} />
       <Route exact path="/login" component={Login} />
+      <Route exact path="/checkout" component={Checkout} />
       <Route path="*" component={NotFound} />
     </Switch>
   );
