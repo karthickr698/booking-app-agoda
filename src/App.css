@@ -1,24 +1,24 @@
-/* @import url('http://fonts.cdnfonts.com/css/gotham'); */
+
 
 .MuiOutlinedInput-root{
     border-radius: 16px !important;
 }
 
 html { 
-    /* font-family: 'Gotham Black', sans-serif !important; */
+    margin: 0;
+    padding: 0;
+    
 }
 
 body{
     margin: 0;
     padding: 0;
-    /* font-family: 'Gotham Black', sans-serif !important; */
+    
 
 }
 
-.MuiCalendarPicker-root{
-    width: 300px !important;
-}
+
 
 .app{
-    /* font-family: 'Gotham Black', sans-serif !important; */
+    
 }
