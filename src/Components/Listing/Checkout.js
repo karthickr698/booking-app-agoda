@@ -4,16 +4,18 @@ import TextField from "@mui/material/TextField";
 import Buttontype from "@material-ui/core/Button";
 import "./Checkout.css";
 import "./Listing.css";
-import { useHistory } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 
 const Checkout = (props) => {
 	const history = useHistory();
+	const location = useLocation();
+	const amount = location.state.amount;
 	const Razorpay = useRazorpay();
 
 	const handlePayment = useCallback(() => {
 		const options = {
 			key: "rzp_test_IdisrFxy6CI5mb",
-			amount: `${parseInt(Math.random() * 1000000)}`,
+			amount: `${amount * 100}`,
 			currency: "INR",
 			name: "Hotel management",
 			description: "Test Transaction",
@@ -64,12 +66,10 @@ const Checkout = (props) => {
 				<TextField label="Full Name" variant="outlined" />
 				<TextField label="Email" variant="outlined" />
 				<TextField label="Phone number (Optional)" variant="outlined" />
-				<div className="btn-cont">
-					<div className="buton">
-						<Buttontype onClick={handlePayment}>
-							Proceed to Pay
-						</Buttontype>
-					</div>
+				<div className="buton">
+					<Buttontype onClick={handlePayment}>
+						Proceed to Pay
+					</Buttontype>
 				</div>
 			</div>
 		</div>
