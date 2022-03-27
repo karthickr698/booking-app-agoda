@@ -9751,6 +9751,11 @@ react-overlays@^4.1.1:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
+react-razorpay@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/react-razorpay/-/react-razorpay-1.1.4.tgz#95ab2368d8fa9c8d0c0727ed7eb950f2a09bf389"
+  integrity sha512-bD6Ltdotv+3U/3kOwhKmUifBsK5+lrsAh3qdxLFm+apdW7trM3iDEQCWMxo0Y8kaA8kO6vndTNl3lMoIg/lC6Q==
+
 react-redux@^7.2.5:
   version "7.2.6"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.6.tgz#49633a24fe552b5f9caf58feb8a138936ddfe9aa"
